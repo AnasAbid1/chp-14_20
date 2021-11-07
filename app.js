@@ -93,69 +93,123 @@
 
 
 
-//11)
-// var cityList = ["karachi","islamabad","quetta","Peshawar"]
-// var selectedCities = ["karachi","lahore"]
+11)
+var cityList = ["karachi","islamabad","quetta","Peshawar"]
+var selectedCities = ["karachi","lahore"]
 
 
 
-//12)
+12)
 var arr =["This","is","My","cat"]
 arr.join(String)
 document.write(arr)
 
-//15)
-//var mobileNames = ("Apple","Samsung"," Motorola", "Nokia", "Sony" , "Haier")
+13)
+
+15)
+var mobileNames = ("Apple","Samsung"," Motorola", "Nokia", "Sony" , "Haier")
 
 
 
 
+alert("We Sent Cookies")
+
+                                    Js Objects and Array loops//
+
+1)
+var Arr=[[1,2],[3,4],[5,6]]
 
 
+2)
+var arrayMain =[[0,1,2,3,5],[0,1,4,8,2],[2,1,3,6,9]]
+for(i=0;i<arrayMain.length; i++){
+ 
+   for(j=0;j<arrayMain[i].length;j++){
+       document.write(arrayMain[i][j])}
+       document.write("<br>")
+}
 
 
+3)
+for(var i = 1; i <=10 ; i = i + 1 ){
+
+    console.log(i)
+document.write("<br>"+ i)
+
+}
+
+4)
+
+var tableNum = +prompt("ENTER THE TABLE NUMBER?")
+var tableLength = +prompt("ENTER LENGTH OF THE TABLE?")
+
+for(i=1;i<=tableLength;i++){
+    document.write("<br>"+tableNum + "X" + i + "=" + tableNum*i )
+}
+
+5)
+
+var fruitsName = ["apple", "banana", "mango", "orange",
+    "strawberry"]
+for(i=0;i<fruitsName.length;i++){
+    document.write("Element at index "+i+" is "+fruitsName[i]+"<br>")
+
+}
+
+6)
+                    Ascending order
+for(var i = 1; i <=10 ; i = i + 1 ){
+    
+    console.log(i)
+document.write(i+",")
+}
+
+                    descending order
+var list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+list.reverse(list);
+document.write(list)
+
+                    Even
+
+for(i=0; i<=10; i++){
+        if(i%2 === 0 ){
+                console.log(i)        
+            }
+        }
+        list.even(list);
+        document.write(list)
+
+                    Odd
 
 
+    for(i=0; i<=10; i++){
+             if(i%2 ==! 0 ){
+                     console.log(i)        
+                   }
+                document.write(list)
+              }
+
+   
+        8)
+        const arr = [24, 53, 78, 91, 12]
+        const max = Math.max(...arr)
+        console.log(max)
+        document.write("Array items : "+arr + "<br>"+ "Largest Number is" + max)
+        
+     
+     
+        9)
+        const arr = [24, 53, 78, 91, 12]
+        const min = Math.min(...arr)
+        console.log(min)
+        document.write("Array items : "+arr + "<br>"+ "Smallest Number is" + min)
+        
 
 
+        10)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        for(i=1;i<=100;i++){
+            if(i%5 === 0){
+                document.write(i+",")
+            }
+        }
